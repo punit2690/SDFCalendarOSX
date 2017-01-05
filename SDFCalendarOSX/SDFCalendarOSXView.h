@@ -21,20 +21,25 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
-//  SDFCalendarOSX.m
+//  SDFCalendarOSXView.h
 //  SDFCalendarOSX
 //
-//  Created by Trent Milton on 12/05/2014.
+//  Created by Trent Milton on 14/05/2014.
 //  Copyright (c) 2014 shaydes.dsgn. All rights reserved.
 //
 
-#import "SDFCalendarOSX.h"
+/**
+ *  Simple NSView used throughout the calendar.
+ */
+@interface SDFCalendarOSXView : NSView
 
-@implementation SDFCalendarOSX
+@property (nonatomic, strong) NSColor *backgroundColour;
 
-+ (SDFCalendarOSXCalendarViewController *)instance
-{
-	return [[SDFCalendarOSXCalendarViewController alloc] initWithNibName:@"SDFCalendarOSXCalendar" bundle:nil];
-}
+/**
+ *  Set the NSViews background colour. If nil colour provided NSClear will be used.
+ *
+ *  @param colour Colour to make the background, can be nil in which case the background will be NSClear.
+ */
+- (void) setBackgroundColour:(NSColor *)colour;
 
 @end

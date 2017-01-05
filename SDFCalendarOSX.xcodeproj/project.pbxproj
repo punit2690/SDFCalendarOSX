@@ -7,14 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F4EF9BD1E1DE39800D4A0E7 /* SDFCalendarOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4EF9BC1E1DE39800D4A0E7 /* SDFCalendarOSX.h */; };
-		1F4EF9BF1E1DE39800D4A0E7 /* SDFCalendarOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EF9BE1E1DE39800D4A0E7 /* SDFCalendarOSX.m */; };
+		1FB0172B1E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0171C1E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.m */; };
+		1FB0172C1E1DE4CF00276C71 /* SDFCalendarOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB0171D1E1DE4CF00276C71 /* SDFCalendarOSX.h */; };
+		1FB0172D1E1DE4CF00276C71 /* SDFCalendarOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0171E1E1DE4CF00276C71 /* SDFCalendarOSX.m */; };
+		1FB0172E1E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB0171F1E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.h */; };
+		1FB0172F1E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB017201E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.m */; };
+		1FB017301E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB017211E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.h */; };
+		1FB017311E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB017221E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.m */; };
+		1FB017321E1DE4CF00276C71 /* SDFCalendarOSXConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB017231E1DE4CF00276C71 /* SDFCalendarOSXConstants.h */; };
+		1FB017331E1DE4CF00276C71 /* SDFCalendarOSXDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB017241E1DE4CF00276C71 /* SDFCalendarOSXDayView.h */; };
+		1FB017341E1DE4CF00276C71 /* SDFCalendarOSXDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB017251E1DE4CF00276C71 /* SDFCalendarOSXDayView.m */; };
+		1FB017351E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB017261E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.h */; };
+		1FB017361E1DE4CF00276C71 /* SDFCalendarOSXMonthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB017271E1DE4CF00276C71 /* SDFCalendarOSXMonthView.h */; };
+		1FB017371E1DE4CF00276C71 /* SDFCalendarOSXMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB017281E1DE4CF00276C71 /* SDFCalendarOSXMonthView.m */; };
+		1FB017381E1DE4CF00276C71 /* SDFCalendarOSXView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB017291E1DE4CF00276C71 /* SDFCalendarOSXView.h */; };
+		1FB017391E1DE4CF00276C71 /* SDFCalendarOSXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0172A1E1DE4CF00276C71 /* SDFCalendarOSXView.m */; };
+		72D66D4D20218AE80B6179DF /* libPods-SDFCalendarOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 291D3063887B2BE08557A339 /* libPods-SDFCalendarOSX.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F4EF9B91E1DE39800D4A0E7 /* libSDFCalendarOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDFCalendarOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F4EF9BC1E1DE39800D4A0E7 /* SDFCalendarOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSX.h; sourceTree = "<group>"; };
-		1F4EF9BE1E1DE39800D4A0E7 /* SDFCalendarOSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDFCalendarOSX.m; sourceTree = "<group>"; };
+		1FB0171C1E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFCalendarOSXDayViewController.m; sourceTree = "<group>"; };
+		1FB0171D1E1DE4CF00276C71 /* SDFCalendarOSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSX.h; sourceTree = "<group>"; };
+		1FB0171E1E1DE4CF00276C71 /* SDFCalendarOSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFCalendarOSX.m; sourceTree = "<group>"; };
+		1FB0171F1E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSXCalendarView.h; sourceTree = "<group>"; };
+		1FB017201E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFCalendarOSXCalendarView.m; sourceTree = "<group>"; };
+		1FB017211E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSXCalendarViewController.h; sourceTree = "<group>"; };
+		1FB017221E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFCalendarOSXCalendarViewController.m; sourceTree = "<group>"; };
+		1FB017231E1DE4CF00276C71 /* SDFCalendarOSXConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSXConstants.h; sourceTree = "<group>"; };
+		1FB017241E1DE4CF00276C71 /* SDFCalendarOSXDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSXDayView.h; sourceTree = "<group>"; };
+		1FB017251E1DE4CF00276C71 /* SDFCalendarOSXDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFCalendarOSXDayView.m; sourceTree = "<group>"; };
+		1FB017261E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSXDayViewController.h; sourceTree = "<group>"; };
+		1FB017271E1DE4CF00276C71 /* SDFCalendarOSXMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSXMonthView.h; sourceTree = "<group>"; };
+		1FB017281E1DE4CF00276C71 /* SDFCalendarOSXMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFCalendarOSXMonthView.m; sourceTree = "<group>"; };
+		1FB017291E1DE4CF00276C71 /* SDFCalendarOSXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFCalendarOSXView.h; sourceTree = "<group>"; };
+		1FB0172A1E1DE4CF00276C71 /* SDFCalendarOSXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFCalendarOSXView.m; sourceTree = "<group>"; };
+		1FB0173A1E1DE4DE00276C71 /* SDFCalendarOSXCalendar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDFCalendarOSXCalendar.xib; sourceTree = "<group>"; };
+		1FB0173B1E1DE4DE00276C71 /* SDFCalendarOSXCalendarDay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDFCalendarOSXCalendarDay.xib; sourceTree = "<group>"; };
+		291D3063887B2BE08557A339 /* libPods-SDFCalendarOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDFCalendarOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC97CA7EB316881604515D8 /* Pods-SDFCalendarOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDFCalendarOSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDFCalendarOSX/Pods-SDFCalendarOSX.release.xcconfig"; sourceTree = "<group>"; };
+		F957503E3844FE4B9A643299 /* Pods-SDFCalendarOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDFCalendarOSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDFCalendarOSX/Pods-SDFCalendarOSX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,17 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D66D4D20218AE80B6179DF /* libPods-SDFCalendarOSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2006BEAB0A132BD053E335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F957503E3844FE4B9A643299 /* Pods-SDFCalendarOSX.debug.xcconfig */,
+				8DC97CA7EB316881604515D8 /* Pods-SDFCalendarOSX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1F4EF9B01E1DE39800D4A0E7 = {
 			isa = PBXGroup;
 			children = (
 				1F4EF9BB1E1DE39800D4A0E7 /* SDFCalendarOSX */,
 				1F4EF9BA1E1DE39800D4A0E7 /* Products */,
+				1A2006BEAB0A132BD053E335 /* Pods */,
+				A5EA6888FD114745DA349110 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,10 +91,33 @@
 		1F4EF9BB1E1DE39800D4A0E7 /* SDFCalendarOSX */ = {
 			isa = PBXGroup;
 			children = (
-				1F4EF9BC1E1DE39800D4A0E7 /* SDFCalendarOSX.h */,
-				1F4EF9BE1E1DE39800D4A0E7 /* SDFCalendarOSX.m */,
+				1FB0173A1E1DE4DE00276C71 /* SDFCalendarOSXCalendar.xib */,
+				1FB0173B1E1DE4DE00276C71 /* SDFCalendarOSXCalendarDay.xib */,
+				1FB0171C1E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.m */,
+				1FB0171D1E1DE4CF00276C71 /* SDFCalendarOSX.h */,
+				1FB0171E1E1DE4CF00276C71 /* SDFCalendarOSX.m */,
+				1FB0171F1E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.h */,
+				1FB017201E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.m */,
+				1FB017211E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.h */,
+				1FB017221E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.m */,
+				1FB017231E1DE4CF00276C71 /* SDFCalendarOSXConstants.h */,
+				1FB017241E1DE4CF00276C71 /* SDFCalendarOSXDayView.h */,
+				1FB017251E1DE4CF00276C71 /* SDFCalendarOSXDayView.m */,
+				1FB017261E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.h */,
+				1FB017271E1DE4CF00276C71 /* SDFCalendarOSXMonthView.h */,
+				1FB017281E1DE4CF00276C71 /* SDFCalendarOSXMonthView.m */,
+				1FB017291E1DE4CF00276C71 /* SDFCalendarOSXView.h */,
+				1FB0172A1E1DE4CF00276C71 /* SDFCalendarOSXView.m */,
 			);
 			path = SDFCalendarOSX;
+			sourceTree = "<group>";
+		};
+		A5EA6888FD114745DA349110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				291D3063887B2BE08557A339 /* libPods-SDFCalendarOSX.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,7 +127,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4EF9BD1E1DE39800D4A0E7 /* SDFCalendarOSX.h in Headers */,
+				1FB0172E1E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.h in Headers */,
+				1FB017361E1DE4CF00276C71 /* SDFCalendarOSXMonthView.h in Headers */,
+				1FB017351E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.h in Headers */,
+				1FB017321E1DE4CF00276C71 /* SDFCalendarOSXConstants.h in Headers */,
+				1FB0172C1E1DE4CF00276C71 /* SDFCalendarOSX.h in Headers */,
+				1FB017301E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.h in Headers */,
+				1FB017381E1DE4CF00276C71 /* SDFCalendarOSXView.h in Headers */,
+				1FB017331E1DE4CF00276C71 /* SDFCalendarOSXDayView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F4EF9C21E1DE39800D4A0E7 /* Build configuration list for PBXNativeTarget "SDFCalendarOSX" */;
 			buildPhases = (
+				2302C6E89BF643E7D710B934 /* [CP] Check Pods Manifest.lock */,
 				1F4EF9B51E1DE39800D4A0E7 /* Sources */,
 				1F4EF9B61E1DE39800D4A0E7 /* Frameworks */,
 				1F4EF9B71E1DE39800D4A0E7 /* Headers */,
+				CB7CB0D0A2E65051CCACDF22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -116,12 +192,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2302C6E89BF643E7D710B934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7CB0D0A2E65051CCACDF22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDFCalendarOSX/Pods-SDFCalendarOSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F4EF9B51E1DE39800D4A0E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4EF9BF1E1DE39800D4A0E7 /* SDFCalendarOSX.m in Sources */,
+				1FB0172D1E1DE4CF00276C71 /* SDFCalendarOSX.m in Sources */,
+				1FB0172B1E1DE4CF00276C71 /* SDFCalendarOSXDayViewController.m in Sources */,
+				1FB0172F1E1DE4CF00276C71 /* SDFCalendarOSXCalendarView.m in Sources */,
+				1FB017391E1DE4CF00276C71 /* SDFCalendarOSXView.m in Sources */,
+				1FB017311E1DE4CF00276C71 /* SDFCalendarOSXCalendarViewController.m in Sources */,
+				1FB017371E1DE4CF00276C71 /* SDFCalendarOSXMonthView.m in Sources */,
+				1FB017341E1DE4CF00276C71 /* SDFCalendarOSXDayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +332,7 @@
 		};
 		1F4EF9C31E1DE39800D4A0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F957503E3844FE4B9A643299 /* Pods-SDFCalendarOSX.debug.xcconfig */;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -225,6 +341,7 @@
 		};
 		1F4EF9C41E1DE39800D4A0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC97CA7EB316881604515D8 /* Pods-SDFCalendarOSX.release.xcconfig */;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -250,6 +367,7 @@
 				1F4EF9C41E1DE39800D4A0E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

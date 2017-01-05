@@ -21,20 +21,34 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
-//  SDFCalendarOSX.m
+//  SDFCalendarOSXDayView.h
 //  SDFCalendarOSX
 //
-//  Created by Trent Milton on 12/05/2014.
+//  Created by Trent Milton on 14/05/2014.
 //  Copyright (c) 2014 shaydes.dsgn. All rights reserved.
 //
 
-#import "SDFCalendarOSX.h"
+#import "SDFCalendarOSXView.h"
 
-@implementation SDFCalendarOSX
+@protocol SDFCalendarOSXDayViewSelectionDelegate <NSObject>
 
-+ (SDFCalendarOSXCalendarViewController *)instance
-{
-	return [[SDFCalendarOSXCalendarViewController alloc] initWithNibName:@"SDFCalendarOSXCalendar" bundle:nil];
-}
+/**
+ *  Fired on a mouseClick.
+ */
+- (void) sdfCalendarOSXDayViewSelected;
+
+@end
+
+/**
+ *  Simple layout with just a day. Will let it's delegate know when a mouse click occurs on it.
+ */
+@interface SDFCalendarOSXDayView : SDFCalendarOSXView
+
+@property (nonatomic, weak) IBOutlet NSTextField *dayLabel;
+@property (nonatomic, strong) id <SDFCalendarOSXDayViewSelectionDelegate> delegate;
+/**
+ *  If this is not set no highlight will happen.
+ */
+@property (nonatomic, strong) NSColor *highlightBackgroundColour;
 
 @end

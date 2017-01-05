@@ -21,20 +21,17 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
-//  SDFCalendarOSX.m
+//  SDFCalendarOSXConstants.h
 //  SDFCalendarOSX
 //
-//  Created by Trent Milton on 12/05/2014.
+//  Created by Trent Milton on 14/05/2014.
 //  Copyright (c) 2014 shaydes.dsgn. All rights reserved.
 //
 
-#import "SDFCalendarOSX.h"
+#define RGB(r, g, b) [NSColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:1]
+#define GREY(v) RGB(v, v, v)
 
-@implementation SDFCalendarOSX
-
-+ (SDFCalendarOSXCalendarViewController *)instance
-{
-	return [[SDFCalendarOSXCalendarViewController alloc] initWithNibName:@"SDFCalendarOSXCalendar" bundle:nil];
-}
-
-@end
+/**
+ *  The layout of the grid. This shouldn't really be touched unless you know what your doing. Especially the x value as this is the days.
+ */
+#define kSDFCalendarOSXGrid CGPointMake(7, 6)

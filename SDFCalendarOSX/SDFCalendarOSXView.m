@@ -21,20 +21,34 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
-//  SDFCalendarOSX.m
+//  SDFCalendarOSXView.m
 //  SDFCalendarOSX
 //
-//  Created by Trent Milton on 12/05/2014.
+//  Created by Trent Milton on 14/05/2014.
 //  Copyright (c) 2014 shaydes.dsgn. All rights reserved.
 //
 
-#import "SDFCalendarOSX.h"
+#import "SDFCalendarOSXView.h"
 
-@implementation SDFCalendarOSX
+@implementation SDFCalendarOSXView
 
-+ (SDFCalendarOSXCalendarViewController *)instance
+- (void)drawRect:(NSRect)dirtyRect
 {
-	return [[SDFCalendarOSXCalendarViewController alloc] initWithNibName:@"SDFCalendarOSXCalendar" bundle:nil];
+	// Make sure we have something to fill the background with
+	if (!self.backgroundColour)
+		_backgroundColour = [NSColor clearColor];
+
+	if (self.backgroundColour) {
+		[self.backgroundColour setFill];
+		NSRectFill(dirtyRect);
+	}
+	[super drawRect:dirtyRect];
+}
+
+- (void)setBackgroundColour:(NSColor *)colour
+{
+	_backgroundColour = colour;
+	[self setNeedsDisplay:YES];
 }
 
 @end
